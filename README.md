@@ -32,21 +32,29 @@ This project is a backend application built with NestJS, utilizing GraphQL for d
 
 2. Install dependencies:
 
-- cd your-project-name
-- npm install
+```
+cd your-project-name
+npm install
+```
 
 3. Start Redis using Docker:
 
-- docker-compose up -d
+```
+docker-compose up -d
+```
 
 4. Configure your .env file with your database and Redis connection settings.
 5. Run the Prisma migrations:
 
-- npx prisma migrate dev
+```
+npx prisma migrate dev
+```
 
-  6.Start the application:
+6.Start the application:
 
--npm run start
+```
+npm run start
+```
 
 Usage
 After starting the application, you can access the GraphQL playground at http://localhost:3000/graphql to explore the API.
